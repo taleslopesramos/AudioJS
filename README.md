@@ -2,10 +2,10 @@
 Elemento de audio personalizado com vanilla javascript(zero jquery e outros frameworks).
 
 # Como usar
-* Importe o js no html: code(<script type="text/javascript" src="audio.js"></script>)  
-* Importe o css no html: code(<link rel="stylesheet" type="text/css" href="style.css">)  
+* Importe o js no html: `<script type="text/javascript" src="audio.js"></script>`  
+* Importe o css no html: `<link rel="stylesheet" type="text/css" href="style.css">`  
 * Utilize a classe **"audio-player"** em uma div e adicione um atributo **"src"** sendo o valor deste o caminho para o arquivo de audio.
-  * Ex: code(<div class="audio-player" src="teste.mp3"></div>)
+  * Ex: `<div class="audio-player" src="teste.mp3"></div>`
 
 # Código
 ## AudioElem::createChildren(playerObj) 
